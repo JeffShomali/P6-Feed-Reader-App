@@ -73,19 +73,14 @@ $(function() {
           * clicked and does it hide when clicked again.
           */
         it('appears when clicked and disappears when clicked again', function() {
-            if ($("body").hasClass("menu-hidden")) {
-                icon.click();
+             var menuHidden = $('.menu-icon-link');
 
-                expect($("body").hasClass("menu-hidden")).toBe(false);
-            }
-
-            if (!$("body").hasClass("menu-hidden")) {
-                icon.click();
-
-                expect($("body").hasClass("menu-hidden")).toBe(true);
-            }
-        });
-    });
+           menuHidden.click();
+           expect($('body').hasClass('menu-hidden')).toEqual(false);
+           menuHidden.click();
+           expect($('body').hasClass('menu-hidden')).toEqual(true);
+       });
+   });
 
     /* TODO: Write a new test suite named "Initial Entries" */
 
