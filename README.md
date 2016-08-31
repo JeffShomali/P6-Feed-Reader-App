@@ -15,4 +15,4 @@ got to download directory and open `index.html`
 For demo project click [here](https://jeffshomali.github.io/P6-Feed-Reader-App/)
 
 ### Result
-![result](https://github.com/JeffShomali/P6-Feed-Reader-App/gh-pages/result.png?raw=true)
+![result](https://github.com/JeffShomali/P6-Feed-Reader-App/blob/gh-pages/result.png?raw=true)
