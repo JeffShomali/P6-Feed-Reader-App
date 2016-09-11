@@ -16,7 +16,7 @@ got to download directory and open `index.html`
 
 ### Demo Online
 
-For demo project click [here](https://jeffshomali.github.io/P6-Feed-Reader-App/)
+For demo project click [here](http://jeffshomali.com/Projects/P6/)
 
 ### Result
 ![result](https://github.com/JeffShomali/P6-Feed-Reader-App/blob/gh-pages/result.png?raw=true)
